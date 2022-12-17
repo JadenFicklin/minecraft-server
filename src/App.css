@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0px;
   font-family: sans-serif;
@@ -6,7 +9,7 @@ body {
   background-color: blue;
 }
 .timer {
-  background-color: lightblue;
+  background-color: rgb(39, 39, 39);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -17,15 +20,15 @@ body {
   position: absolute;
   top: 0px;
   right: 0px;
-  width: 200px;
-  height: 70px;
+  width: 220px;
+  height: 90px;
   display: flex;
   flex-wrap: wrap;
   align-content: space-around;
   justify-content: space-around;
   margin-right: 50px;
   margin-top: 50px;
-  border: 1px solid black;
+  border: 10px solid rgb(108, 201, 255);
   background-color: rgb(255, 255, 255);
   padding: 5px;
 }
@@ -33,11 +36,10 @@ span {
   margin-top: 13px;
 }
 .todo-outer {
-  background-color: blue;
-  width: 1600px;
+  width: 800px;
   height: 1000px;
   z-index: 2;
-  margin-left: 50px;
+  margin-left: 450px;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -48,4 +50,42 @@ span {
   width: 100%;
   height: 900px;
   background-color: rgb(108, 201, 255);
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+input {
+  width: 30px;
+  height: 30px;
+}
+label {
+  margin-bottom: 10px;
+  position: relative;
+  bottom: 8px;
+  font-size: 20px;
+}
+.column-one {
+  width: 33%;
+  height: 100%;
+  background-color: white;
+  border-right: 1px solid black;
+  padding: 15px;
+}
+.column-two {
+  width: 33%;
+  height: 100%;
+  background-color: white;
+  border-right: 1px solid black;
+  padding: 15px;
+}
+.column-three {
+  width: 33%;
+  height: 100%;
+  background-color: white;
+  padding: 15px;
+}
+h2 {
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
 }
