@@ -7,26 +7,41 @@ function Todo() {
         <div className="column-one">
           <h2>Starter list</h2>
           <input type="checkbox" />
-          <label> I have a bike</label>
+          <label> 64 x wood</label>
           <br></br>
           <input type="checkbox" />
-          <label> I have a bike</label>
+          <label> 128 x iron</label>
+          <br></br>
+          <input type="checkbox" />
+          <label> 33 x diamond</label>
+          <br></br>
+          <input type="checkbox" />
+          <label> Pumpkin pie farm</label>
+          <br></br>
         </div>
         <div className="column-two">
           <h2>Intermediate list</h2>
           <input type="checkbox" />
-          <label> I have a bike</label>
+          <label> House</label>
           <br></br>
           <input type="checkbox" />
-          <label> I have a bike</label>
+          <label> Nether</label>
+          <br></br>
         </div>
         <div className="column-three">
           <h2>Advanced list</h2>
           <input type="checkbox" />
-          <label> I have a bike</label>
+          <label> Fireworks farm</label>
           <br></br>
           <input type="checkbox" />
-          <label> I have a bike</label>
+          <label> XP farm</label>
+          <br></br>
+          <input type="checkbox" />
+          <label> Beacon</label>
+          <br></br>
+          <input type="checkbox" />
+          <label> Villager farm</label>
+          <br></br>
         </div>
       </div>
     </div>
