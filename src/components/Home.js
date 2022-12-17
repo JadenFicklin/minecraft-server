@@ -9,7 +9,8 @@ function Home() {
 
   let interval;
   const startTimer = () => {
-    const countDownDate = new Date("December 24, 2022 ").getTime();
+    const countDownDate =
+      new Date("December 18, 2022 ").getTime() - 13 * 60 * 60 * 1000;
 
     interval = setInterval(() => {
       const now = new Date().getTime();

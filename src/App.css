@@ -13,3 +13,39 @@ body {
   text-align: center;
   height: 100vh;
 }
+.clock {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 200px;
+  height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  margin-right: 50px;
+  margin-top: 50px;
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+}
+span {
+  margin-top: 13px;
+}
+.todo-outer {
+  background-color: blue;
+  width: 1600px;
+  height: 1000px;
+  z-index: 2;
+  margin-left: 50px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+}
+.todo-inner {
+  width: 100%;
+  height: 900px;
+  background-color: rgb(108, 201, 255);
+}
